@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <ul id="mylist">
+<li>list1</li>
+<li>list2</li>
+<li>list3</li>
+<li>list4</li>
+    </ul> -->
+    <!-- <h1 id="myname">rajesh</h1>
+    <script>
+         var list=document.getElementById("myname");
+        console.log(list)
+        console.log(list.innerhtml)
+        list.innerHTML='python';
+
+        let ele=document.getElementById('mylist')
+        console.log(ele)
+        ele.innerHTML=<h1>welcome to it vedant </h1>  -->
+
+ <!-- </script> -->
+<!-- <script>
+    <ul>
+        <li>list1</li>
+        <h1 class="c1">heading1</h1>   
+         <li>list2</li>
+        <h2 class="c1">heading2</h1>  
+             <li>list3</li>
+        <h1 class="c1">heading3</h1>
+        </ul>
+<script>
+    var list=document.getElementByIdclass -->
+
+
+<!-- </script> -->
+
+
+
+    <!-- <script>
+        <ul>
+            <li id="intro">list1</li>
+            <li>list2</li>
+            <li>list3</li>
+<li>list4</li>
+<li>list5</li>
+        </ul>
+    </script>
+    <script>
+        let ele=document.getElementById('intro')
+        console.log(ele)
+        let prnt=ele.parentElement
+        console.log(prnt)
+        prnt.innerhtml='<h1>java</h1>'
+        console.log(prnt)
+    </script> -->
+
+    <!-- first child last child -->
+
+    <!-- <ul id="into">
+<li>list1</li>
+<li>list2</li>
+<li>list3</li>
+<li>list4</li>
+<li>list5</li> -->
+
+    <!-- </ul>
+
+    <script>
+        let ele = document.getElementById('intro')
+        first=ele.firstElementChild
+        console.log(first) 
+        last=ele.lastElementChild
+        console.log(last)
+        all=ele.children
+        console.log(all)
+         for(i=0;<all.length;i++){
+            console.log(all[i].innerhtml)
+            all[i].innerhtml='javascript'
+        } -->
+
+    <!-- </script>
+<div>
+    <p class="intro">paragraph1</p>
+    <h2 class="intro">heading 2</h2>
+    <p class="intro">paragraph3</p>
+    <h2 class="intro">heading 3</h2>
+    <p class="intro">paragraph3</p>
+</div> --> 
+
+<!-- <script>
+    let ele = document.querySelector('p.intro')
+    console.log(ele)
+    ele.innerHTML='Hello';
+    for(i=0;i<ele.length;i++){
+        ele[i].innerHTML='javascript';
+    }
+    let ele=document.querySelectorAll('p.intro')
+    console.log(ele)
+    for(i=0;i<ele.lenth;i++){
+        ele[i].innerHTML='javascript'
+    }
+</script> -->
+
+
+<!-- //list of siblings -->
+
+<!-- <ul>
+    <li>list1</li>
+    <li id="intro">list2</li>
+    <li>list3</li>
+    <li>list4</li>
+</ul> -->
+
+<!-- <script>
+    let ele=document.getElementById('intro')
+    console.log(ele.previousElementSibling)
+    console.log(ele.nextElementSibling)
+</script> -->
+
+<!-- create and append element -->
+ <!-- <div id="intro">
+    <p>hello this is p tag</p>
+ </div>
+
+ <script>
+    let ele=document.getElementById('intro')
+    let newEle=document.createElement('h1')
+    console.log(newEle)
+    newEle.textContent='this is h1 tag';
+    ele.appendChild(newEle)
+
+    newEle.className='intro';
+    newEle.id='myid';
+ </script> -->
+
+ <!-- <ul id="list">
+    <li>list1</li>
+    <li>list2</li>
+    <li>list3</li>
+    <li>list4</li>
+ </ul>
+
+ <script>
+    let ele=document.getElementById('list')
+    console.log(ele)
+    let newEle=document.createElement('li')
+    newEle.textContent='list6'
+    pos=ele. -->
+ <!-- </script> -->
+
+ 
+    
+<!-- <ul id="list">
+    <li>list1</li>
+    <li>list2</li>
+<li>list3</li>
+<li>list4</li>
+<li>list5</li>
+</ul>
+<script>
+let prnt=document.getElementById('list')
+let child=prnt.firstElementChild
+prnt.removeChild(child)
+ prnt.removeChild(prnt.lastElementChild) -->
+<!-- document.body.removeChild(prnt) --> 
+<!-- </script> -->
+
+<!-- <ul id="list">
+    <li>list1</li>
+    <li>list2</li>
+    <li>list3</li>
+<li>list4</li>
+<li>list5</li>
+</ul>
+
+<script>
+    let ele=document.getElementById('list')
+    let copyele=ele.cloneNode(true)
+    console.log(copyele)
+    document.body.append(copyele)
+</script> -->
+
+<!-- <ul id="list">
+    <li>AC</li>
+    <li>TV</li>
+    <li>Cooler</li>
+    <li>Fridge</li>
+    <li>Washing machine</li>
+</ul>
+
+<script>
+    let prnt= document.getElementById('list')
+    new_list=document.createElement('li')
+    new_list.textContent='mixer'
+    pos=prnt.firstElementChild.nextElementSibling.nextElementSibling.nextElementSibling
+    prnt.replaceChild(new_list,pos)
+</script> -->
+
+
+    <!-- beforebegin -->
+<div id="intro">
+<!-- afterbegin -->
+<h2>heading1</h2>
+<p>this is paragraph</p>
+<!-- beforeend -->
+</div>
+<!-- afterend -->
+
+<!-- </script>-->
+
+<script>
+    let ele=document.getElementById('intro')
+    let new_ele='<h2>new heading tag</h2>'
+    ele.insertadjacenthtml('beforeend',new_ele)
+</script>
+</body>
+</html>
